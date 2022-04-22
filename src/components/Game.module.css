@@ -46,3 +46,78 @@
   text-align: center;
   margin-right: 1em;
 }
+
+@media only screen and (max-width: 1050px){
+
+
+  .letter, .Square {
+    font-size: 55px;
+    height: 70px;
+    width: 70px;
+  }
+
+}
+
+@media only screen and (max-width: 750px){
+
+  .game h1{
+    font-size: 30px;
+  }
+
+  .wordContainer {
+    padding: 8px;
+    border: 5px solid #fff;
+  }
+
+  .letter, .Square {
+    font-size: 35px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .letterContainer input {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+
+  .game h1{
+    font-size: 25px;
+  }
+
+  .wordContainer {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .letter, .Square {
+    font-size: 28px;
+    height: 40px;
+    width: 40px;
+  }
+
+  .letterContainer input {
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 390px){
+
+  .letter, .Square {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .letterContainer input {
+    height: 30px;
+    width: 30px;
+  }
+}
