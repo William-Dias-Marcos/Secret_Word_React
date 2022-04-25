@@ -96,7 +96,7 @@
   }
 
   .letter, .Square {
-    font-size: 28px;
+    font-size: 30px;
     height: 40px;
     width: 40px;
   }
@@ -104,7 +104,7 @@
   .letterContainer input {
     height: 40px;
     width: 40px;
-    font-size: 25px;
+    font-size: 30px;
   }
 }
 

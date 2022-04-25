@@ -44,10 +44,11 @@ const Game = ({verifyLetter,
      </div>
 
      <div className={styles.letterContainer}>
-      <p>Tente adivinhar uma letra da palavra:</p>
+      <p>Digite uma letra minúscula para advinhar a palavra:</p>
 
       <form onSubmit={handleSubmit}>
         <input type="text" 
+        pattern="([a-z]+)"
         name="letter" 
         maxLength="1" 
         required

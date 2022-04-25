@@ -47,14 +47,11 @@ function App() {
     return { category, word };
   }, [words]);
 
-
   const activateGame = ()=>{
     setGameStage(stages[1].name);
     setScore(0);
     startGame();
   }
-
-
 
   // start the game
   const startGame = useCallback(() => {
