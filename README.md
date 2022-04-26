@@ -2,7 +2,7 @@
 
 ## 💻 Sobre o projeto
 
-💵 Secret Word é um jogo de advinhar palavras.
+🕵🏻‍♂️ Secret Word é um jogo de advinhar palavras.
 
 https://secretwordreact.netlify.app/
 
@@ -19,7 +19,7 @@ https://secretwordreact.netlify.app/
 ## 📱 Layout da Aplicação
 
  <p text  align="center">
-<img img width= "700" src= ""> 
+<img img width= "700" src= "https://github.com/William-Dias-Marcos/Secret_Word_React/blob/main/to_readme/gif.gif"> 
 </p>
 
 ---
